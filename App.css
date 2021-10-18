@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 0%;
+    padding-left: 0%;
+    text-align: center;
+
+}
+.sideslot{
+    background-color: #21cc69;
+    color: white;
+    min-width: 350px;
+    min-height: 480px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    display :inline-block;
+
+}
+
+  .container{
+    background-color: rgb(183, 206, 206);
+    width: 100%;
+    min-height: 100vh;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app-wrapper{
+    background-color: white;
+    min-width: 350px;
+    min-height: 480px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    border-color: black;
+    display: inline-block;
+    
+}
+.title{
+    color:black;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
+.name,
+.email,
+.subject,
+.message{
+    margin: 10px;
+    color:black;
+    font-size: 16px;
+}
+.subject{
+    margin-bottom:40px;
+}
+.input{
+    height: 32px;
+    font-size: 20px;
+    outline:none;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+.error{
+    color: red;
+}
+.submit{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 60px;
+    background: violet;
+    box-shadow: teal;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+
+}
+bottom :active{
+    transform:translateY(2px);
+
+}
+.form-success{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+    color: #f80759;
+}
+.flex-all-center{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
